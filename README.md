@@ -1,2 +1,3 @@
-# eggsotic-recipes
-Cracking eggs with HTML &amp; CSS
+# Eggsotic Recipes
+
+Cracking eggs with HTML
