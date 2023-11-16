@@ -4,13 +4,20 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 *,
 *::after,
 *::before {
   margin: inherit;
   padding: inherit;
   box-sizing: inherit;
+  scrollbar-width: none;
 }
+
+/* styling for website */
 
 body {
   height: 100vh;
@@ -18,7 +25,10 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
+/* styling for homepage */
 
 .home-container {
   display: flex;
@@ -58,4 +68,31 @@ body {
   max-width: 150px;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+/* styling for recipe pages */
+
+.recipe-container {
+  width: 800px;
+  margin: auto;
+}
+
+.recipe-container h1,
+.recipe-container h2 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.recipe-container p,
+.recipe-container li {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.recipe-container ul {
+  list-style: square;
+}
+
+.source p {
+  padding-bottom: 30px;
 }
