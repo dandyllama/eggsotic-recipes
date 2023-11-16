@@ -14,7 +14,7 @@
 
 body {
   height: 100vh;
-  background: url("../images/page-background.svg");
+  background: url("../assets/svgs/page-background.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
